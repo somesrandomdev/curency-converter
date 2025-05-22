@@ -48,3 +48,23 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- ------------------------------------------
+# Currency Converter
+
+A React Native app built with Expo for a mobile development final exam. Converts amounts between currencies using real-time exchange rates from the ExchangeRate-API.
+
+## How to Run
+1. Clone the repo: `git clone <your-repo-link>`
+2. Install dependencies: `npm install`
+3. Start the app: `npx expo start`
+4. Scan the QR code with Expo Go on your phone.
+
+## Features
+- Enter an amount and select "From" and "To" currencies (default: XOF).
+- Converts in real-time as you type or change currencies.
+- Validates amount input (numbers only).
+- Swap button to switch currencies.
+- Shows loading spinner and error messages.
+
+## API Used
+- ExchangeRate-API (https://api.exchangerate-api.com/v4/latest/XOF).
